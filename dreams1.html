@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+<Head>
+  <title> dreams</title>
+</Head>
+<font color="red"><H1> To Become A Legend</H1></font>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<ul>
+  <li><a class="active" href="Html.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">My Dreams</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="dreams1.html">Dream 1</a>
+      <a href="dreams2.html">Dream 2</a>
+      <a href="dreams3.html">Dream 3</a>
+      <a href="role model.html"> Role Model</a>
+    </div>
+  </li>
+</ul>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+ <body background="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1024px-Jumpman_logo.svg.png">
+  
+ <font color="red"> <P>I have always wanted to leave a huge mark on this earth so that every one will remember me and my great accomplishments.</P> </font>
+  <font color="red"><h2>How To</h2></font>
+  
+ <font color=" red"> <p> First get through school. Understand how legends are made. Make,Do,or suprise the world with some thing out of this world. Always give it my all even if I'm failing just <strong>keep</strong> going.</p></font>
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
